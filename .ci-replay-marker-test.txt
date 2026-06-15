@@ -1,0 +1,3 @@
+# CI replay marker for test/pytest
+feature_branch: replay-a2d6cbb7
+workflow: .github/workflows/ci.yml

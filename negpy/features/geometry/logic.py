@@ -985,7 +985,7 @@ def map_coords_to_geometry(
         h, w = y2 - y1, x2 - x1
 
     nx_new = np.clip(px / max(w, 1), 0.0, 1.0)
-    ny_new = np.clip(py / max(h, 1), 0.0, 1.0)
+    ny_new = np.clip(py / max(w, 1), 0.0, 1.0)
 
     return float(nx_new), float(ny_new)
 
